@@ -96,8 +96,6 @@ class Circle {
                 }
             }
         }
-
-
         // Verifica si el círculo ha alcanzado las paredes izquierda o derecha
         if (this.posX + this.radius >= canvas.width || this.posX - this.radius <= 0) {
             // Invierte la velocidad en el eje x para que rebote
